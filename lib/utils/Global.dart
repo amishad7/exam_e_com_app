@@ -9,6 +9,7 @@ class global {
           'like': false,
           "title": "Apple iPad",
           "price": 990,
+          "qty": 1,
           "discountPercentage": "-",
           "rating": 5.0,
           "stock": 98,
@@ -31,6 +32,7 @@ class global {
           "price": 1000,
           'like': false,
           "discountPercentage": 16.9,
+          "qty": 1,
           "rating": 5.0,
           "stock": 87,
           "brand": "Samsung",
@@ -51,6 +53,7 @@ class global {
           "title": "Xiaomi",
           'CategoryName': 'Tablets',
           "price": 54,
+          "qty": 1,
           'like': false,
           "discountPercentage": 23.6,
           "rating": 3.67,
@@ -73,6 +76,7 @@ class global {
           'CategoryName': 'Tablets',
           "price": 300,
           "discountPercentage": 25.00,
+          "qty": 1,
           "rating": 5.0,
           "stock": 47,
           'like': false,
@@ -97,6 +101,7 @@ class global {
           "discountPercentage": 36.0,
           'like': false,
           "rating": 4.00,
+          "qty": 1,
           "stock": 47,
           "brand": "Lenovo",
           "description":
@@ -121,6 +126,7 @@ class global {
           'like': false,
           "price": 859,
           "discountPercentage": 12.96,
+          "qty": 1,
           "rating": 5.00,
           "stock": 78,
           "brand": "Apple",
@@ -139,6 +145,7 @@ class global {
           "price": 259,
           "discountPercentage": 23.7,
           'CategoryName': 'Headphones',
+          "qty": 1,
           'like': false,
           "rating": 5.0,
           "stock": 23,
@@ -156,6 +163,7 @@ class global {
         {
           "id": 1,
           "title": "NirvanC",
+          "qty": 1,
           "price": 549,
           "discountPercentage": 12.96,
           "rating": 4.00,
@@ -180,6 +188,7 @@ class global {
           "price": 509,
           'like': false,
           "discountPercentage": 15.90,
+          "qty": 1,
           "rating": 4.04,
           "stock": 45,
           "brand": "Boat",
@@ -198,6 +207,7 @@ class global {
           "title": "Immortal ",
           "price": 900,
           "discountPercentage": 25.00,
+          "qty": 1,
           'like': false,
           "rating": 4.67,
           "stock": 77,
@@ -210,56 +220,6 @@ class global {
             "https://www.boat-lifestyle.com/cdn/shop/products/IM1300-FI_Red03_800x.png?v=1659425496",
             "https://www.boat-lifestyle.com/cdn/shop/products/IM1300-FI_Red03_800x.png?v=1659425496",
           ],
-        },
-      ],
-    },
-  ];
-  static List<Map<String, dynamic>> randomProducts = [
-    {
-      'CategoryName': 'Tablets',
-      'data': [
-        {
-          "id": 1,
-          'CategoryName': 'Tablets',
-          'like': false,
-          "title": "Apple iPad",
-          "price": 990,
-          "discountPercentage": "-",
-          "rating": 5.0,
-          "stock": 98,
-          "brand": "Apple",
-          "thumbnail":
-              "https://i.pinimg.com/564x/eb/ad/6e/ebad6e384cb9124a973450f086b652b1.jpg",
-          "description":
-              'Known for its premium build quality and iOS operating system, Apples iPad is a popular choice for both productivity and entertainment.',
-          "images": [
-            "https://i.pinimg.com/736x/97/b6/2b/97b62bb34fd7d5211788f40aa6f1e6d0.jpg",
-            "https://i.pinimg.com/564x/a9/59/59/a959593f8c81acf42fd763c2ef929856.jpg",
-            "https://i.pinimg.com/564x/70/6f/b6/706fb669521eb142ed984cb5bb5074f1.jpg",
-            "https://i.pinimg.com/564x/a9/59/59/a959593f8c81acf42fd763c2ef929856.jpg",
-          ]
-        },
-        {
-          "id": 2,
-          'CategoryName': 'Tablets',
-          "title": "Samsung Tab ",
-          "price": 1000,
-          'like': false,
-          "discountPercentage": 16.9,
-          "rating": 5.0,
-          "stock": 87,
-          "brand": "Samsung",
-          "thumbnail":
-              "https://images.samsung.com/is/image/samsung/p6pim/in/sm-x910nzaeinu/gallery/in-galaxy-tab-s9-ultra-wifi-x910-sm-x910nzaeinu-thumb-537869340?\$264_264_PNG\$",
-          "description":
-              'Samsung offers a range of Android-based tablets under the Galaxy Tab series, known for their versatility and high-resolution displays.',
-          "images": [
-            "https://images.samsung.com/is/image/samsung/p6pim/in/sm-x910nzaeinu/gallery/in-galaxy-tab-s9-ultra-wifi-x910-sm-x910nzaeinu-thumb-537869340?\$264_264_PNG\$",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRvLOMpP2Ttncm-fAEgiao2NZQdnvhr-EA3PZkhuOXegstaqPk0j66t20iCyFvMctZUjo&usqp=CAU",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqI7pPDUaEo6a8w5QjVm9aRffrwo1P5m5166XbRx0cRX5jVhbVuSJeMTgDC315dkT5OVo&usqp=CAU",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXncxrI-w5asbH-U6VN3mtcSNDwNwWVqALtA&usqp=CAU",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxTvesZD3MfABDmS-RmuqfEaUOkqTi3BiIynV2WVUwbsZw3cLbkXDcPCE5KlF9vBeSWTg&usqp=CAU",
-          ]
         },
       ],
     },

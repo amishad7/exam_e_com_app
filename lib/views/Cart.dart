@@ -96,27 +96,55 @@ class _Cart_State extends State<Cart_> {
                           ],
                         ),
                         SizedBox(width: 23),
-                        Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(12),
-                            boxShadow: [
-                              BoxShadow(
-                                  color: Colors.grey.shade50,
-                                  blurRadius: 24,
-                                  offset: Offset(0, 2)),
-                            ],
-                          ),
-                          child: IconButton(
-                            onPressed: () {
-                              setState(() {
-                                global.cartProducts.remove(e);
-                              });
-                            },
-                            icon: const Icon(
-                              Icons.delete,
+                        Column(
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(12),
+                                boxShadow: [
+                                  BoxShadow(
+                                      color: Colors.grey.shade50,
+                                      blurRadius: 24,
+                                      offset: Offset(0, 2)),
+                                ],
+                              ),
+                              child: IconButton(
+                                onPressed: () {
+                                  setState(() {
+                                    global.cartProducts.remove(e);
+                                  });
+                                },
+                                icon: const Icon(
+                                  Icons.delete,
+                                ),
+                              ),
                             ),
-                          ),
+                            Container(
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(12),
+                                boxShadow: [
+                                  BoxShadow(
+                                      color: Colors.grey.shade50,
+                                      blurRadius: 24,
+                                      offset: Offset(0, 2)),
+                                ],
+                              ),
+                              child: Row(
+                                children: [
+                                  IconButton(
+                                    onPressed: () {
+                                      setState(() {});
+                                    },
+                                    icon: const Icon(
+                                      Icons.delete,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),
